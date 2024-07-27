@@ -1,0 +1,21 @@
+.nf-container {
+    padding: 2.5rem;
+    background-color: #9e9aa7;
+    height: 100vh;
+}
+
+.nf-title {
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.go-back {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.go-back:hover {
+    color: var(--primary-blue);
+}

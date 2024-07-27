@@ -1,0 +1,94 @@
+.section {
+    padding-top: 5em; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 4em; 
+    padding-bottom: 4em; 
+    scroll-margin: 16px; 
+    background-color: #1a1a1a; 
+  }
+  
+  @media (min-width: 768px) {
+    .section {
+      padding-top: 6em; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .section {
+      flex-direction: row; 
+      align-items: flex-start; 
+    }
+  }
+  
+  .section h2 {
+    font-size: 2.25rem; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  
+  .cliply-text {
+    font-weight: 800; 
+  }
+  
+  .section p {
+    text-align: left; 
+    margin-top: 1rem; 
+    width: 100%; 
+    padding-left: 2em; 
+    padding-right: 2em; 
+  }
+  
+  @media (min-width: 640px) {
+    .section p {
+      width: 32ch; 
+      padding-left: 0; 
+      padding-right: 0; 
+    }
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 2em; 
+  }
+  
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; 
+    border: 1px solid #2d2d2d;
+    border-radius: 0.75rem; 
+    padding: 1rem; 
+    cursor: pointer; 
+    transition: box-shadow 0.3s ease-in-out;
+    width: 97%; 
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 15px -3px rgba(45, 45, 45, 0.1); 
+  }
+  
+  .card h3 {
+    font-weight: 600; 
+  }
+  
+  .card p {
+    width: 33ch; 
+    font-size: 0.875rem; 
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      width: auto; 
+    }
+  }

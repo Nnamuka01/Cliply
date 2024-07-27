@@ -1,0 +1,135 @@
+.dashboard-section {
+    background-color: #0b101b;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.dsh {
+    padding: 1em;
+    width: 100%;
+}
+
+.ds1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ds1-img {
+    height: 45px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.log-div {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.log-div:hover{
+    background-color: #0056b3;
+}
+
+thead,
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 1em;
+}
+
+tr,
+td {
+    background-color: #181e29;
+    opacity: 1.9;
+    border: 1px solid #0b101b;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .log-div {
+        background-color: #007bff;
+        color: #fff;
+    }
+    
+    .log-div:hover{
+        background-color: #0056b3;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .res-container {
+        margin: 1em auto;
+        padding: 0 1em;
+    }
+
+    .res-table {
+        display: block;
+        overflow-x: auto;
+        width: 100%;
+        border: 0;
+    }
+
+    .res-table thead, .res-table tbody, .res-table th, .res-table td, .res-table tr {
+        display: block;
+    }
+
+    .res-table thead tr {
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .res-table tr {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 1em;
+    }
+
+    .res-table td {
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: -50%;
+        /* text-align: center; */
+    }
+
+    .res-table td::before {
+        position: absolute;
+        top: 50%;
+        left: 1em;
+        transform: translateY(-50%);
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .res-table td:nth-of-type(1) {
+        padding-left: 60%;
+    }
+
+   .res-table td:nth-of-type(1)::before {
+        content: "Original URL";
+        position: relative;
+        padding-right: 50px;
+    }
+
+    .res-table td:nth-of-type(2)::before {
+        content: "Shortened URL";
+    }
+
+    .res-table td:nth-of-type(3)::before {
+        content: "Date";
+    }
+
+    .res-table td:nth-of-type(4)::before {
+        content: "Clicks";
+     }
+}

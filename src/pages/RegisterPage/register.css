@@ -1,0 +1,134 @@
+.section-register {
+    background-color: #9e9aa7;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+  }
+  
+  .form-div {
+    margin-bottom: 2em;
+    padding: 1.25em;
+    margin-top: 3em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6em;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #007bff;
+    width: 90%;
+    max-width: 24em;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-div:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-heading {
+    text-align: center;
+  }
+  
+  .form-heading h1 {
+    font-size: 2.25em;
+    font-weight: 600;
+    padding-bottom: 0.75em;
+  }
+  
+  .form-heading h2 {
+    font-size: 1.875em;
+    color: #9e9aa7; 
+    font-weight: 500;
+    /* padding-bottom: 1em; */
+  }
+  
+  .form-heading p {
+    color: #9e9aa7; 
+    text-align: center;
+    font-size: 0.875em;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .input-group div {
+    margin-bottom: 1em;
+  }
+  
+  input[type="text"], input[type="email"] {
+    padding: 0.75em;
+    width: 100%;
+    border-radius: 0.5em;
+    outline: none;
+    border-bottom-width: 2px;
+  }
+  
+  input::placeholder {
+    color: #000;
+  }
+  
+  .error-message {
+    color: #ff0000; 
+    font-size: 0.875em;
+    margin-top: 0.25em;
+  }
+  
+  .pass-error {
+    color: #ff0000; 
+    font-size: 0.875em;
+    margin-top: 0.25em;
+  }
+  
+  .success-message {
+    color: #28a745; 
+    font-size: 1em;
+    margin-top: 0.25em;
+    font-weight: 500;
+  }
+  
+  .button {
+    padding: 0.5em;
+    width: 100%;
+    background-color: #007bff; 
+    border-radius: 0.5em;
+    font-weight: 600;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+
+   .form-heading-p span {
+    color: #9e9aa7;
+  }
+  
+  .link {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-left: 20px;
+  }
+  
+  .terms {
+    text-align: center;
+    width: 90%;
+    color: #9e9aa7; 
+    font-size: 0.75em;
+  }
+
+  .cliply-text {
+    background: linear-gradient(to right, #eb568e, #a353aa, #144ee3, #144ee3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

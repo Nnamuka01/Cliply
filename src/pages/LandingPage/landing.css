@@ -1,0 +1,179 @@
+.landingPage {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero {
+  padding-top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5em;
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding-top: 10em;
+  }
+}
+
+.hero-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .hero-text {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-text {
+    width: auto;
+  }
+}
+
+.hero__p {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--primary-blue);
+}
+
+@media (min-width: 1024px) {
+  .hero__p {
+    font-size: 3rem;
+  }
+}
+
+.text-primaryLite {
+  color: var(--primaryLite);
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.error-text {
+  color: #f56565;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-1-9em {
+  gap: 1.9em;
+}
+
+.gap-1-5em {
+  gap: 1.5em;
+}
+
+.gap-1-3em {
+  gap: 1.3em;
+}
+
+.link {
+  text-decoration: underline;
+  text-decoration-color: var(--primaryBlue);
+}
+
+.sm-no-underline {
+  text-decoration: none;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.sm-font-normal {
+  font-weight: normal;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+.table-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem; 
+}
+
+.laptop-img-div, .mobile-img-div {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.laptop-img-div {
+  cursor: pointer;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .laptop-img-div {
+    display: block;
+    max-width: 700px;
+  }
+}
+
+.mobile-img-div {
+  cursor: pointer;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobile-img-div {
+    display: none;
+  }
+}
+
+.laptop-img-div img, .mobile-img-div img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+} 
+
+.mt-negative-2em {
+  margin-top: -2em;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .w-95 {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .w-fit {
+    width: fit-content;
+  }
+}
